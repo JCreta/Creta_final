@@ -2,12 +2,12 @@
     width: 1280px;
     margin: 0 auto;
     background-color: transparent;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-}
+    color:#B3F5C1;
+    font-family: 'Courier New', Courier, monospace; 
+ }
 
 body {
-    background-image:url('bamboo-background.jpg');
+    background-image: url("bamboo-background.jpg");
     object-fit: cover;
     background-size: 100%;
     background-attachment: fixed;
@@ -20,59 +20,75 @@ body {
 header {
     width: 100%;
     height: 100px;
-    background-color: #aa272f;
-    padding: 10px 0 20px;
-    
+    background-color: #C20118;
+    padding: 15px 0 30px;
 }
 
 h1 {
     text-align: center;
-    font-family: 'Yeseva One', cursive;
-    padding-bottom: 5px;
+    font-family: 'Courier New', cursive;
+    font-size: 35px;
+    color: white;
 }
 
 h1 a {
-    text-decoration: none;
+    text-decoration: solid;
+    font-size: 35px;
 }
 
 h3 {
-    font-family: 'Amatic SC', cursive;
-    font-size: 25px;
-    color:#fff; 
-}    
-h3 p {
-    font-family: 'Amatic SC', cursive;
-    font-size: 20px;
-    color:#fff; 
+    font-family: Courier, cursive;
+    font-size: 30px;
+    color:#B3F5C1;
 }
 
-.dumpling-banner {
-    margin-bottom: -5px;
+.catering {
+    margin: 60px 0;
+    background: transparent
 }
+
+.dont-forget {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #C20118;
+    font-family: 'Courier New', Courier, monospace, cursive;
+}
+
+.dont-forget a {
+    color:white;
+    font-family: 'Courier New', Courier, monospace, cursive;
+}
+
 img {
     width: 100%;
+    height: auto;
+
 }
 
 nav {
     object-position: center;
 }
+
 ul {
     text-align: center;
+   
     
     
 }
+
 li {
     display: inline-block;
     padding: 0 50px;
+    font-weight: bold;
 }
 
 a {
-    color: white;
+    color:white;
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace, cursive;
 }
 
-a:hover,
-.active {
+a:hover, .active {
     color: black;
 }
 
@@ -80,42 +96,44 @@ a:hover,
     display: grid;
     grid-template-columns: 6fr 1fr;
     margin: 50px auto;
+    
 }
 
-.contact-us h2 {
-    padding-top: 30px;
-    font-family: 'Amatic SC', cursive;
-    font-size: 36px;
+.contact.main {
+    text-align:center;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+
 }
 
-.stairs {
-    display: inline-block;
-    width: 98%;
-    height: 690px;
-    margin-bottom: -20px;
+.contact-img  {
+    width: 500px;
+    height: auto;
+    border: 3px solid whitesmoke;
+   
 }
 
-.dont-forget {
-    background-color: #333333;
-    padding: 20px;
+.dumpling-banner {
+    background-color: #C20118;
+    padding: 0px;
 }
 
 form {
-	width: 300px;
-	margin: 12px auto;
-	background-color: #333333;
-	padding: 16px;
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    background-color: #333333;
+    padding: 16px;
     padding-right: 25px;
-	color: white;
-	border-radius: 10px;
+    color: #B3F5C1;
+    border-radius: 10px;
     text-align: left;
-    display: inline-block;
+    display:block;
+    margin-left: 450px;
 }
 
-input,
-label,
-select,
-textarea {
+input, label, select, textarea {
 	display:block;
 	width: 100%;
 }
@@ -143,17 +161,19 @@ input {
 }
 
 input[type=submit] {
-	background-color: #aa272f;
+	background-color:#C20118;
 	border-style: none;
-	color: white;
+	color: #B3F5C1;
 	font-size: 18px;
 	font-weight: bold;
-    padding: 5px;
+    
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 input[type=submit]:active {
-    background-color: white;
-    color: #aa272f;
+     background-color: #B3F5C1;
+     color:#C20118;
 }
 
 input[type=radio] + label {
@@ -181,18 +201,16 @@ input[type=radio] + label::before {
     width: 22px;
     text-align: center;
     margin-right: 16px;
-    border: 2px solid white;
+    border: 2px solid #C20118;
     background-color: #fff;
     padding-bottom: 2px;
+    margin-bottom: 10px;
 }
 
 input[type=radio]:checked + label::before {
-    background: #aa272f;
+    background: #C20118;
 }
 
-.catering {
-    margin: 60px 0;
-}
 
 div img {
     width: 100%;
@@ -201,36 +219,41 @@ div img {
     object-fit: cover;
 }
 
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #aa272f;
+    background-color: #C20118;
     margin-bottom: 10vh;
-  }
+    
+    
+    
+}
 
 .grid-items {
-    background-color: #aa272f;
-    border: 1px solid #aa272f;
+    background-color:#C20118;
+    border: 1px solid black;
     text-align: center;
+    border-style: double
 }
 
 .grid-items p {
     padding: 2px 100px;
     margin-top: -20px;
+    font-size: 15px;
 }
-
 
 main {
     text-align: center;
+    font-family: 'Courier New', Courier, monospace, cursive;
 }
 
 footer {
-    background-color: #aa272f;
+    background-color:#C20118;
     padding: 10px;
     text-align: center;
 }
 
 footer p {
     display: inline-block;
+    font-family: 'Courier New', Courier, monospace, cursive;
 }
